@@ -1,4 +1,8 @@
+###
 GET http://localhost:3000/events
+
+###
+GET http://localhost:3000/events/b569a136-8d33-45e3-8726-bf8e2ca5f0b6
 
 ###
 POST http://localhost:3000/events
@@ -14,4 +18,17 @@ Content-Type: application/json
   "image": "http://example.com/image.jpg"
 }
 
+###
+PATCH http://localhost:3000/events/b569a136-8d33-45e3-8726-bf8e2ca5f0b6
+Content-Type: application/json
+
+
+  {
+  "name": "Summer Sections 2024",
+  "description": "Festa da Kwan",
+  "date": "2023-10-05T14:48:00",
+  "price": 100.0,
+  "location": "123 Main St, City, Country",
+  "image": "http://example.com/image.jpg"
+}
 
