@@ -32,3 +32,5 @@ Content-Type: application/json
   "image": "http://example.com/image.jpg"
 }
 
+###
+DELETE http://localhost:3000/events/b569a136-8d33-45e3-8726-bf8e2ca5f0b6
